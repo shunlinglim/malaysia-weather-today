@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loading-screen {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    background-image: linear-gradient(135deg, #EAB984 0%, #2935AB 100%);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.8s ease-in-out;
+    opacity: 1;
+}
+
+.loading-screen.loading-fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-screen > dotlottie-wc {
+    width: 300px;
+    height: 300px;
+}
+
+.background-img {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    height: 100dvh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    transition: background-image 1.0s ease-in-out;
+}
+
+.background-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    transition: background-color 1.0s ease-in-out;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 2; 
+    height: 100%;
+    width: 100%;
+}
+
+.authorship {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-weight: 200;
+    background-clip: text;
+    color: transparent;
+    animation: fadeInAuthor 1.0s ease-in-out;
+}
+
+@keyframes fadeInAuthor {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 690px) {
+    .authorship {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 520px) {
+    .authorship {
+        font-size: 10px;
+        bottom: 12px;
+    }
+
+    .loading-screen > dotlottie-wc {
+        width: 220px;
+        height: 220px;
+    }
+}

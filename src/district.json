@@ -1,0 +1,816 @@
+[
+    {
+        "Federal Territories": [
+            {
+                "district": "Kuala Lumpur",
+                "abbrev": ["KUL", "WPK", "KL"],
+                "lat": 3.14,
+                "lon": 101.69
+            },
+            {
+                "district": "Putrajaya",
+                "abbrev": ["PJY", "WPP", "PJ"],
+                "lat": 2.93,
+                "lon": 101.69
+            },
+            {
+                "district": "Labuan",
+                "abbrev": ["LBN", "WPL"],
+                "lat": 5.30,
+                "lon": 115.22
+            }
+        ]
+    },
+    {
+        "Johor": [
+            {
+                "district": "Batu Pahat",
+                "lat": 1.85,
+                "lon": 102.93
+            },
+            {
+                "district": "Johor Bahru",
+                "lat": 1.49,
+                "lon": 103.76
+            },
+            {
+                "district": "Kluang",
+                "lat": 2.03,
+                "lon": 103.32
+            },
+            {
+                "district": "Kota Tinggi",
+                "lat": 1.73,
+                "lon": 103.90
+            },
+            {
+                "district": "Kulai",
+                "lat": 1.66,
+                "lon": 103.60
+            },
+            {
+                "district": "Mersing",
+                "lat": 2.43,
+                "lon": 103.84
+            },
+            {
+                "district": "Muar",
+                "lat": 2.04,
+                "lon": 102.57
+            },
+            {
+                "district": "Pontian",
+                "lat": 1.49,
+                "lon": 103.39
+            },
+            {
+                "district": "Segamat",
+                "lat": 2.50,
+                "lon": 102.82
+            },
+            {
+                "district": "Tangkak",
+                "lat": 2.27,
+                "lon": 102.54
+            }
+        ]
+    },
+    {
+        "Kedah": [
+            {
+                "district": "Alor Setar",
+                "lat": 6.12,
+                "lon": 100.37
+            },
+            {
+                "district": "Baling",
+                "lat": 5.68,
+                "lon": 100.92
+            },
+            {
+                "district": "Kubang Pasu",
+                "lat": 6.43,
+                "lon": 100.42
+            },
+            {
+                "district": "Kulim",
+                "lat": 5.37,
+                "lon": 100.55
+            },
+            {
+                "district": "Langkawi",
+                "lat": 6.35,
+                "lon": 99.80
+            },
+            {
+                "district": "Padang Terap",
+                "lat": 6.25,
+                "lon": 100.67
+            },
+            {
+                "district": "Pendang",
+                "lat": 5.99,
+                "lon": 100.47
+            },
+            {
+                "district": "Sik",
+                "lat": 5.82,
+                "lon": 100.75
+            },
+            {
+                "district": "Sungai Petani",
+                "lat": 5.64,
+                "lon": 100.49
+            },
+            {
+                "district": "Yan",
+                "lat": 5.80,
+                "lon": 100.37
+            }
+        ]
+    },
+    {
+        "Kelantan": [
+            {
+                "district": "Bachok",
+                "lat": 6.06,
+                "lon": 102.40
+            },
+            {
+                "district": "Gua Musang",
+                "lat": 4.88,
+                "lon": 101.96
+            },
+            {
+                "district": "Jeli",
+                "lat": 5.70,
+                "lon": 101.84
+            },
+            {
+                "district": "Kota Bharu",
+                "lat": 6.13,
+                "lon": 102.24
+            },
+            {
+                "district": "Kuala Krai",
+                "lat": 5.53,
+                "lon": 102.20
+            },
+            {
+                "district": "Machang",
+                "lat": 5.76,
+                "lon": 102.22
+            },
+            {
+                "district": "Pasir Mas",
+                "lat": 6.04,
+                "lon": 102.14
+            },
+            {
+                "district": "Pasir Puteh",
+                "lat": 5.83,
+                "lon": 102.40
+            },
+            {
+                "district": "Tanah Merah",
+                "lat": 5.81,
+                "lon": 102.15
+            },
+            {
+                "district": "Tumpat",
+                "lat": 6.20,
+                "lon": 102.17
+            }
+        ]
+    },
+    {
+        "Melaka": [
+            {
+                "district": "Alor Gajah",
+                "lat": 2.38,
+                "lon": 102.21
+            },
+            {
+                "district": "Melaka Tengah",
+                "lat": 2.20,
+                "lon": 102.25
+            },
+            {
+                "district": "Jasin",
+                "lat": 2.31,
+                "lon": 102.43
+            }
+        ]
+    },
+    {
+        "Negeri Sembilan": [
+            {
+                "district": "Jelebu",
+                "lat": 3.04,
+                "lon": 102.07
+            },
+            {
+                "district": "Jempol",
+                "lat": 2.80,
+                "lon": 102.36
+            },
+            {
+                "district": "Kuala Pilah",
+                "lat": 2.74,
+                "lon": 102.25
+            },
+            {
+                "district": "Port Dickson",
+                "lat": 2.52,
+                "lon": 101.79
+            },
+            {
+                "district": "Rembau",
+                "lat": 2.49,
+                "lon": 102.09
+            },
+            {
+                "district": "Seremban",
+                "lat": 2.73,
+                "lon": 101.94
+            },
+            {
+                "district": "Tampin",
+                "lat": 2.47,
+                "lon": 102.23
+            }
+        ]
+    },
+    {
+        "Pahang": [
+            {
+                "district": "Bentong",
+                "lat": 3.52,
+                "lon": 101.91
+            },
+            {
+                "district": "Bera",
+                "lat": 3.27,
+                "lon": 102.42
+            },
+            {
+                "district": "Cameron Highlands",
+                "lat": 4.47,
+                "lon": 101.38
+            },
+            {
+                "district": "Jerantut",
+                "lat": 3.94,
+                "lon": 102.36
+            },
+            {
+                "district": "Kuantan",
+                "lat": 3.81,
+                "lon": 103.33
+            },
+            {
+                "district": "Lipis",
+                "lat": 4.18,
+                "lon": 102.05
+            },
+            {
+                "district": "Maran",
+                "lat": 3.59,
+                "lon": 102.77
+            },
+            {
+                "district": "Pekan",
+                "lat": 3.48,
+                "lon": 103.39
+            },
+            {
+                "district": "Raub",
+                "lat": 3.79,
+                "lon": 101.86
+            },
+            {
+                "district": "Rompin",
+                "lat": 2.82,
+                "lon": 103.48
+            },
+            {
+                "district": "Temerloh",
+                "lat": 3.45,
+                "lon": 102.42
+            }
+        ]
+    },
+    {
+        "Penang": [
+            {
+                "district": "North Seberang Perai",
+                "lat": 5.48,
+                "lon": 100.43
+            },
+            {
+                "district": "Central Seberang Perai",
+                "lat": 5.36,
+                "lon": 100.46
+            },
+            {
+                "district": "South Seberang Perai",
+                "lat": 5.23,
+                "lon": 100.49
+            },
+            {
+                "district": "Northeast Penang Island",
+                "lat": 5.42,
+                "lon": 100.31
+            },
+            {
+                "district": "Southwest Penang Island",
+                "lat": 5.32,
+                "lon": 100.22
+            }
+        ]
+    },
+    {
+        "Perak": [
+            {
+                "district": "Bagan Datuk",
+                "lat": 3.99,
+                "lon": 100.78
+            },
+            {
+                "district": "Batang Padang",
+                "lat": 3.89,
+                "lon": 101.26
+            },
+            {
+                "district": "Hilir Perak",
+                "lat": 4.02,
+                "lon": 101.03
+            },
+            {
+                "district": "Hulu Perak",
+                "lat": 5.42,
+                "lon": 101.27
+            },
+            {
+                "district": "Kampar",
+                "lat": 4.31,
+                "lon": 101.15
+            },
+            {
+                "district": "Kerian",
+                "lat": 5.01,
+                "lon": 100.54
+            },
+            {
+                "district": "Kinta",
+                "lat": 4.50,
+                "lon": 101.10
+            },
+            {
+                "district": "Kuala Kangsar",
+                "lat": 4.77,
+                "lon": 100.94
+            },
+            {
+                "district": "Larut, Matang and Selama",
+                "lat": 4.85,
+                "lon": 100.74
+            },
+            {
+                "district": "Manjung",
+                "lat": 4.20,
+                "lon": 100.66
+            },
+            {
+                "district": "Muallim",
+                "lat": 3.78,
+                "lon": 101.44
+            },
+            {
+                "district": "Perak Tengah",
+                "lat": 4.35,
+                "lon": 100.85
+            }
+        ]
+    },
+    {
+        "Perlis": [
+            {
+                "district": "Kangar",
+                "lat": 6.44,
+                "lon": 100.20
+            }
+        ]
+    },
+    {
+        "Selangor": [
+            {
+                "district": "Gombak",
+                "lat": 3.25,
+                "lon": 101.65
+            },
+            {
+                "district": "Hulu Langat",
+                "lat": 2.99,
+                "lon": 101.79
+            },
+            {
+                "district": "Hulu Selangor",
+                "lat": 3.44,
+                "lon": 101.64
+            },
+            {
+                "district": "Klang",
+                "lat": 3.03,
+                "lon": 101.45
+            },
+            {
+                "district": "Kuala Langat",
+                "lat": 2.81,
+                "lon": 101.50
+            },
+            {
+                "district": "Kuala Selangor",
+                "lat": 3.34,
+                "lon": 101.25
+            },
+            {
+                "district": "Petaling",
+                "lat": 3.10,
+                "lon": 101.64
+            },
+            {
+                "district": "Sabak Bernam",
+                "lat": 3.76,
+                "lon": 100.98
+            },
+            {
+                "district": "Sepang",
+                "lat": 2.82,
+                "lon": 101.75
+            }
+        ]
+    },
+    {
+        "Terengganu": [
+            {
+                "district": "Besut",
+                "lat": 5.75,
+                "lon": 102.50
+            },
+            {
+                "district": "Dungun",
+                "lat": 4.75,
+                "lon": 103.42
+            },
+            {
+                "district": "Hulu Terengganu",
+                "lat": 5.00,
+                "lon": 102.83
+            },
+            {
+                "district": "Kemaman",
+                "lat": 4.22,
+                "lon": 103.42
+            },
+            {
+                "district": "Kuala Nerus",
+                "lat": 5.37,
+                "lon": 103.07
+            },
+            {
+                "district": "Kuala Terengganu",
+                "lat": 5.33,
+                "lon": 103.14
+            },
+            {
+                "district": "Marang",
+                "lat": 5.17,
+                "lon": 103.17
+            },
+            {
+                "district": "Setiu",
+                "lat": 5.50,
+                "lon": 102.75
+            }
+        ]
+    },
+    {
+        "Sabah": [
+            {
+                "district": "Beaufort",
+                "lat": 5.35,
+                "lon": 115.75
+            },
+            {
+                "district": "Beluran",
+                "lat": 6.00,
+                "lon": 117.51
+            },
+            {
+                "district": "Keningau",
+                "lat": 5.34,
+                "lon": 116.16
+            },
+            {
+                "district": "Kinabatangan",
+                "lat": 5.42,
+                "lon": 117.86
+            },
+            {
+                "district": "Kota Belud",
+                "lat": 6.35,
+                "lon": 116.43
+            },
+            {
+                "district": "Kota Kinabalu",
+                "lat": 5.98,
+                "lon": 116.07
+            },
+            {
+                "district": "Kota Marudu",
+                "lat": 6.49,
+                "lon": 116.76
+            },
+            {
+                "district": "Kuala Penyu",
+                "lat": 5.57,
+                "lon": 115.60
+            },
+            {
+                "district": "Kudat",
+                "lat": 6.88,
+                "lon": 116.82
+            },
+            {
+                "district": "Kunak",
+                "lat": 4.68,
+                "lon": 118.24
+            },
+            {
+                "district": "Lahad Datu",
+                "lat": 5.03,
+                "lon": 118.33
+            },
+            {
+                "district": "Nabawan",
+                "lat": 4.74,
+                "lon": 116.45
+            },
+            {
+                "district": "Papar",
+                "lat": 5.73,
+                "lon": 115.93
+            },
+            {
+                "district": "Penampang",
+                "lat": 5.91,
+                "lon": 116.11
+            },
+            {
+                "district": "Pitas",
+                "lat": 6.71,
+                "lon": 117.09
+            },
+            {
+                "district": "Putatan",
+                "lat": 5.90,
+                "lon": 116.05
+            },
+            {
+                "district": "Ranau",
+                "lat": 5.95,
+                "lon": 116.66
+            },
+            {
+                "district": "Sandakan",
+                "lat": 5.84,
+                "lon": 118.11
+            },
+            {
+                "district": "Semporna",
+                "lat": 4.48,
+                "lon": 118.61
+            },
+            {
+                "district": "Sipitang",
+                "lat": 5.08,
+                "lon": 115.55
+            },
+            {
+                "district": "Tambunan",
+                "lat": 5.67,
+                "lon": 116.36
+            },
+            {
+                "district": "Tawau",
+                "lat": 4.24,
+                "lon": 117.89
+            },
+            {
+                "district": "Telupid",
+                "lat": 5.62,
+                "lon": 117.12
+            },
+            {
+                "district": "Tenom",
+                "lat": 5.12,
+                "lon": 115.95
+            },
+            {
+                "district": "Tongod",
+                "lat": 5.27,
+                "lon": 116.97
+            },
+            {
+                "district": "Tuaran",
+                "lat": 6.18,
+                "lon": 116.23
+            }
+        ]
+    },
+    {
+        "Sarawak": [
+            {
+                "district": "Asajaya",
+                "lat": 1.54,
+                "lon": 110.61
+            },
+            {
+                "district": "Bau",
+                "lat": 1.41,
+                "lon": 110.16
+            },
+            {
+                "district": "Belaga",
+                "lat": 2.70,
+                "lon": 113.78
+            },
+            {
+                "district": "Beluru",
+                "lat": 3.75,
+                "lon": 114.13
+            },
+            {
+                "district": "Betong",
+                "lat": 1.41,
+                "lon": 111.53
+            },
+            {
+                "district": "Bintulu",
+                "lat": 3.17,
+                "lon": 113.04
+            },
+            {
+                "district": "Dalat",
+                "lat": 2.87,
+                "lon": 111.94
+            },
+            {
+                "district": "Daro",
+                "lat": 2.51,
+                "lon": 111.43
+            },
+            {
+                "district": "Julau",
+                "lat": 2.02,
+                "lon": 111.91
+            },
+            {
+                "district": "Kabong",
+                "lat": 1.80,
+                "lon": 111.12
+            },
+            {
+                "district": "Kanowit",
+                "lat": 2.10,
+                "lon": 112.15
+            },
+            {
+                "district": "Kapit",
+                "lat": 2.02,
+                "lon": 112.93
+            },
+            {
+                "district": "Kuching",
+                "lat": 1.55,
+                "lon": 110.36
+            },
+            {
+                "district": "Lundu",
+                "lat": 1.67,
+                "lon": 109.85
+            },
+            {
+                "district": "Lawas",
+                "lat": 4.86,
+                "lon": 115.41
+            },
+            {
+                "district": "Limbang",
+                "lat": 4.75,
+                "lon": 115.01
+            },
+            {
+                "district": "Lubok Antu",
+                "lat": 1.04,
+                "lon": 111.84
+            },
+            {
+                "district": "Marudi",
+                "lat": 4.18,
+                "lon": 114.32
+            },
+            {
+                "district": "Matu",
+                "lat": 2.67,
+                "lon": 111.53
+            },
+            {
+                "district": "Miri",
+                "lat": 4.41,
+                "lon": 114.01
+            },
+            {
+                "district": "Mukah",
+                "lat": 2.90,
+                "lon": 112.09
+            },
+            {
+                "district": "Pakan",
+                "lat": 2.08,
+                "lon": 111.68
+            },
+            {
+                "district": "Samarahan",
+                "lat": 1.46,
+                "lon": 110.50
+            },
+            {
+                "district": "Saratok",
+                "lat": 1.74,
+                "lon": 111.34
+            },
+            {
+                "district": "Sarikei",
+                "lat": 2.12,
+                "lon": 111.52
+            },
+            {
+                "district": "Sebauh",
+                "lat": 3.12,
+                "lon": 113.27
+            },
+            {
+                "district": "Selangau",
+                "lat": 2.51,
+                "lon": 112.33
+            },
+            {
+                "district": "Serian",
+                "lat": 1.17,
+                "lon": 110.57
+            },
+            {
+                "district": "Sibu",
+                "lat": 2.29,
+                "lon": 111.83
+            },
+            {
+                "district": "Simunjan",
+                "lat": 1.39,
+                "lon": 110.75
+            },
+            {
+                "district": "Song",
+                "lat": 2.04,
+                "lon": 112.55
+            },
+            {
+                "district": "Sri Aman",
+                "lat": 1.23,
+                "lon": 111.46
+            },
+            {
+                "district": "Subis",
+                "lat": 3.79,
+                "lon": 113.84
+            },
+            {
+                "district": "Tatau",
+                "lat": 2.88,
+                "lon": 112.85
+            },
+            {
+                "district": "Tebedu",
+                "lat": 1.00,
+                "lon": 110.35
+            },
+            {
+                "district": "Telang Usan",
+                "lat": 3.51,
+                "lon": 114.39
+            }
+        ]
+    }
+]

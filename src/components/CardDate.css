@@ -1,0 +1,393 @@
+.side-container {
+    position: relative;
+    width: 162px;
+    height: 420px;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 24px 26px;
+    z-index: 2;
+    transition: background-color 1.0s ease-in-out, color 1.0s ease-in-out, opacity 1.0s ease-in-out;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.date-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 2px;
+}
+
+.day {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -5%;
+    text-align: end;
+}
+
+.month,
+.year {
+    margin-block: -8px;
+    text-align: start;
+}
+
+.month {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.year {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.week {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -4px;
+    transition: color 1.0s ease-in-out;
+    text-align: center;
+}
+
+p.first,
+p.second,
+p.third {
+    pointer-events: none;
+    display: none;
+}
+
+p.first.date {
+    position: absolute;
+    width: 530px;
+    text-align: center;
+}
+
+@keyframes fadeInUpdate {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-update {
+  animation: fadeInUpdate 0.5s ease-out;
+}
+
+.district {
+    font-size: 15px;
+    font-weight: 300;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 6px;
+    align-items: center;
+    text-align: center;
+    transition: color 0.1s ease-in-out 0.1s;
+    z-index: 2;
+    padding-inline: 1rem;
+}
+
+.district::after {
+    content: "Change District";
+    font-weight: 500;
+    position: absolute;
+    white-space: nowrap;
+    color: var(--text-color);
+    transition: opacity 0.1s ease-in-out 0.1s;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.district:hover {
+    color: transparent;
+    cursor: pointer;
+}
+
+.district:hover::after {
+    opacity: 1;
+}
+
+.select-district {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 26px;
+}
+
+.option-district {
+    max-height: 210px;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin-bottom: 0.5rem;
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    width: 8.4rem;
+    padding: 0.5rem 0.45rem;
+    z-index: 2;
+}
+
+.select-district.hidden > .option-district {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(1rem);
+}
+
+.option-district > div {
+    max-height: 184px;
+    width: 8.4rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: auto;
+    scrollbar-width: none;
+    font-size: 14px;
+}
+
+.option-district-item {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.45rem;
+}
+
+.option-district-item:hover,
+.option-district-item.active {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+    cursor: pointer;
+}
+
+.no-result-msg {
+    pointer-events: none;
+}
+
+.district.hidden,
+.select-district.hidden input {
+    opacity: 0;
+    pointer-events: none;
+}
+
+input {
+    border: none;
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 8.4rem;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: var(--placeholder-color);
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+@media (max-width: 1200px) {
+    .side-container {
+        flex-direction: row;
+        width: 630px;
+        height: 72px;
+        order: 1;
+        font-size: 15px;
+        border-radius: 0 0 40px 40px;
+        padding: 0 50px;
+    }
+
+    .flex-column {
+        display: none;
+    }
+
+    p.first {
+        display: inline;
+    }
+
+    .district {
+        padding-inline: 0;
+        width: auto;
+        font-weight: inherit;
+        margin-bottom: 0;
+    }
+
+    .district.small-text {
+        width: 90px;
+        font-size: 11px;
+    }
+
+    .district::after {
+        position: absolute;
+        top: 50%;
+        left: auto;
+        right: 50px;
+        transform: translateY(-50%);
+        font-size: 15px;
+    }
+
+    .select-district {
+        right: 26px;
+        bottom: 1.1rem;
+    }
+
+    .option-district {
+        width: 100%;
+        padding: 0.5rem 0.6rem;
+    }
+
+    .option-district > div {
+        max-height: 196px;
+        width: 9.4rem;
+        font-size: inherit;
+    }
+
+    .option-district-item {
+        padding: 0.4rem 0.8rem;
+    }
+
+    input {
+        width: 10.6rem;
+        font-size: inherit;
+    }
+}
+
+@media (max-width: 920px) {
+    .side-container {
+        width: 555px;
+    }
+
+    p.first {
+        display: none;
+    }
+
+    p.second {
+        display: inline;
+    }
+
+    .district.small-text {
+        width: auto;
+        font-size: inherit;
+    }
+
+    .district::after {
+        font-size: inherit;
+    }
+
+    .select-district {
+        right: 46px;
+        bottom: 1rem;
+    }
+
+    .option-district > div {
+        width: 9.8rem;
+    }
+
+    input {
+        width: 11rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .side-container {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 12px;
+        width: 430px;
+        height: 52px;
+        padding-inline: 32px;
+    }
+
+    p.second {
+        display: none;
+    }
+
+    p.third {
+        display: inline;
+    }
+
+    .district::after {
+        right: 32px;
+    }
+
+    .select-district {
+        right: 32px;
+        bottom: 0.6rem;
+    }
+
+    input {
+        width: 9.4rem;
+    }
+
+    .option-district {
+        padding: 0.4rem 0.5rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .option-district > div {
+        width: 8.4rem;
+        max-height: 142px;
+    }
+
+    .district {
+        font-size: inherit;
+    }
+}
+
+@media (max-width: 520px) {
+    .side-container {
+        padding-inline: 28px;
+        width: 300px;
+        height: 40px;
+        font-size: 9.5px;
+    }
+
+    .district::after {
+        right: 28px;
+    }
+
+    .select-district {
+        right: 24px;
+        bottom: 0.5rem;
+    }
+
+    input {
+        width: 7.4rem;
+        border-radius: 0.3rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .option-district {
+        padding: 0.3rem 0.4rem;
+        border-radius: 0.3rem;
+    }
+
+    .option-district > div {
+        width: 6.6rem;
+        max-height: 120px;
+    }
+
+    .option-district-item {
+        border-radius: 0.3rem;
+        padding-inline: 0.7rem;
+    }
+}
