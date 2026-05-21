@@ -127,6 +127,7 @@ p.first.date {
     align-items: center;
     position: absolute;
     bottom: 26px;
+    z-index: 999;
 }
 
 .option-district {
