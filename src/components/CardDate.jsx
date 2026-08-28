@@ -23,15 +23,21 @@ export function CardDate({ getWeatherStatus, lastUpdated, activeIndex, allDistri
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, [isInputting]);
 
+    useEffect(() => {
+        if (isInputting && inputRef.current && !window.matchMedia('(pointer: coarse)').matches) {
+            inputRef.current.focus();
+        }
+    }, [isInputting]);
+
     const changeDistrict = () => {
         setIsInputting(!isInputting);
     };
 
-    useEffect(() => {
-        if (isInputting && inputRef.current) {
-            inputRef.current.focus();
-        }
-    }, [isInputting]);
+    const revealInput = () => {
+        requestAnimationFrame(() => {
+            inputRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+        });
+    };
 
     const filteredResults = allDistricts.filter((item) => {
         const search = searchTerm.toLowerCase().trim();
@@ -146,11 +152,11 @@ export function CardDate({ getWeatherStatus, lastUpdated, activeIndex, allDistri
                         </div>
                     </div>
                     <input 
-                        autoFocus 
                         ref={inputRef} 
                         value={searchTerm}
                         onChange={handleSearchChange}
                         onKeyDown={handleKeyDown}
+                        onFocus={revealInput}
                         spellCheck="false" 
                         type="text" 
                         placeholder="e.g. Kuala Lumpur"
